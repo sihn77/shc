@@ -26,16 +26,12 @@
             height: 60px;
         }
 
-        td:hover {
+        td:hover:not(tfoot>tr>td){
             background-color: silver;
             font-size: 30px;
         }
         
-        th:hover {
-            background-color: silver;
-            font-size: 30px;
-        }
-
+        
         th {
             background-color: aqua;
             color: blue;
@@ -64,7 +60,7 @@
 
         td{width: 120px;text-align: center;}
 
-        tfoot>tr>th:hover{background-color: aqua;}
+        /* tfoot>tr>th:hover{background-color: aqua;} */
 
     </style>
 </head>
