@@ -10,11 +10,11 @@
         {font-size: 50px;}
 
         body>header>h2
-        {font-size: 30px; background-color: silver;}
+        {font-size: 30px; background-color: silver; color: orange;}
 
         .a1{background-color: bisque;}
 
-        .a2{background-color: greenyellow;}
+        .a2{background-color: darkgreen;}
 
         .a1>li{color:blue}
 
@@ -22,9 +22,15 @@
 
         .a1>li>ul>li>ol{color:darkolivegreen}
 
-        
+        /* #underline{text-decoration: underline; font-size: 30px;} */
 
-        .a2>li{}
+        .a1>li>ul>li>ol>li:last-of-type{text-decoration: underline; font-size: 30px;}
+
+        .a2>li{color: yellow;}
+
+        .a2>li>ul>li{color: darkred;}
+
+        .a2>li:first-of-type{color: darkred;}
 
     </style>
 </head>
@@ -45,7 +51,7 @@
                 <li>K7
                     <ol type="" start="1">
                         <li>가솔린</li>
-                        <li>디젤</li>
+                        <li id="underline">디젤</li>
                     </ol>
             </li>
             </ul>
