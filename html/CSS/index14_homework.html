@@ -4,6 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1, h2 {text-align: center;}
+        body>header>h1
+        {font-size: 50px;}
+
+        body>header>h2
+        {font-size: 30px; background-color: silver;}
+
+        .a1{background-color: bisque;}
+
+        .a2{background-color: greenyellow;}
+
+        .a1>li{color:blue}
+
+        .a1>li>ul>li{color:palevioletred}
+
+        .a1>li>ul>li>ol{color:darkolivegreen}
+
+        
+
+        .a2>li{}
+
+    </style>
 </head>
 <body>
     <header>
@@ -13,7 +36,7 @@
     <header>
         <h2>2021년식</h2>
     </header>
-    <ul>
+    <ul class="a1">
         <li>세단
             <ul>
                 <li>그랜저</li>
@@ -35,7 +58,7 @@
     <header>
         <h2>2020년식</h2>
     </header>
-    <ul>
+    <ul class="a2">
         <li>세단</li>
         <li>SUV
             <ul>
